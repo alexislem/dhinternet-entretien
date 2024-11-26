@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="site-vendre">
+    Site à vendre
+</div>
     <header>
         <div class="logo">
             <img src="images/logo.png" alt="Logo BH Internet">
