@@ -29,6 +29,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1000; 
+    margin-top: 30px;
 }
 
 .logo img {
@@ -279,3 +280,18 @@ footer {
 .phone-number:hover {
     background-color: #d32f2f; 
 }
+
+.site-vendre {
+    background-color: yellow;  /* Fond jaune */
+    color: black;              /* Texte noir */
+    text-align: center;        /* Centre le texte */
+    padding: 5px 0;           /* Espace autour du texte */
+    font-weight: bold;         /* Texte en gras */
+    font-size: 1.2rem;         /* Taille du texte */
+    width: 100%;               /* Prend toute la largeur */
+    position: fixed;           /* Fixe le texte en haut */
+    top: 0;                    /* En haut de la page */
+    left: 0;                   /* Aligné à gauche */
+    z-index: 9999;             /* S'assurer que ça soit au-dessus de la navbar */
+}
+
